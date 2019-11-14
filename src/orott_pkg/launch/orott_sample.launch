@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="orott_pkg" type="orott_controller" name="orott_controller" output="screen"/>
+  <node pkg="orott_pkg" type="robot_sim" name="robot_sim" output="screen"/>
+</launch>

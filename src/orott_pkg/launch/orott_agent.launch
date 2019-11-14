@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="orott_pkg" type="orott_controller" name="orott_controller" output="screen"/>
+</launch>
